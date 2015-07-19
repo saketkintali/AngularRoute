@@ -1,0 +1,27 @@
+
+
+ li {
+
+     color: white;
+     cursor: pointer;
+ }
+
+img {
+    width: 200px;
+    height: 200px;
+}
+ footer {
+     height: 20px;
+     background-color: #555d68;
+     color: white;
+ }
+
+ section {
+     margin-top: 30px;
+     border-top: 1px solid black;
+     border-bottom: 1px solid black;
+     min-height: 200px;
+     text-align: left;
+
+
+ }
