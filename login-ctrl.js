@@ -16,6 +16,7 @@
         };
 
         console.log('login controller');
+        console.log('Sample');
     }
 
 
