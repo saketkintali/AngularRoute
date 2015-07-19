@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Dummy Index</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+<ul class="nav nav-pills">
+    <li role="presentation" class="active"><a href="#/login">Login</a></li>
+    <li role="presentation"><a href="#/home/Saket/Vizag">Home</a></li>
+    <li role="presentation"><a href="#/profile">Profile</a></li>
+</ul>
+</nav>
+<section ng-view>
+<footer>
+    FOOTER
+</footer>
+<script src="angular.js"></script>
+<script src="angular-route.js"></script>
+<script src="app.js"></script>
+<script src="login-ctrl.js"></script>
+<script src="home-ctrl.js"></script>
+<script src="profile-ctrl.js"></script>
+</body>
+</html>
